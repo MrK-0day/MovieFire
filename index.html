@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Movie Fire</title>
+        <link rel="icon" href="./images/Firebase.png">
+        <!-- Begin CSS Links -->
+        <link rel="stylesheet" href="./css/bootstrap.min.css">
+        <!-- End CSS Links -->
+        <!-- Begin JS Links -->
+        <script src="./js/afterglow.min.js"></script>
+        <!-- End JS Links -->
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="app_header">
+            <a class="navbar-brand"><img v-bind:src="iconFirebaseLink" width="30" height="30" alt=""></a>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="./">{{ stringTrangChu }}</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="container-fluid">
+            <div class="alert alert-success" role="alert">
+                <form id="app_body">
+                    <div class="row">
+                        <div class="col-8">
+                            <select class="form-control" id="LoadTenPhim">
+                                <option v-for="todo in todos">{{ todo.TenPhim }}</option>
+                            </select>
+                        </div>
+                        <div class="col-2">
+                            <input type="text" class="form-control" placeholder="Series" id="TapPhim">
+                        </div>
+                        <div class="col-2">
+                            <button type="button" class="btn btn-danger" id="TimKiem">Search</button>
+                            <button type="button" class="btn btn-info" id="ToanManHinh">Full Screen</button>
+                        </div>
+                    </div>
+                </form>
+                <video class="video_player" id="player" width="100%" controls="controls" autoplay="autoplay">
+            </div>
+        </div>
+        <!-- Begin JS Links -->
+        <script src="./js/jquery-3.3.1.min.js"></script>
+        <script src="./js/popper.min.js"></script>
+        <script src="./js/bootstrap.min.js"></script>
+        <script src="./js/vue.min.js"></script>
+        <script src="./libraries/movie.js"></script>
+        <!-- End JS Links -->
+    </body>
+</html>

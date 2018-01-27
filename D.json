@@ -1,0 +1,35 @@
+{
+    "MovieFire" : {
+        "strTrangChu" : "Home",
+        "linkIconFirebase" : "./images/Firebase.png"
+    },
+    "DATA" : [
+        {
+            "TenPhim" : "Eva Nổi Giận",
+            "TapPhim" : {
+                "100" : "http://174.138.17.187/videos/3993bd12ea8997c857cf5282ec6d231b.mp4",
+                "101" : "http://174.138.22.175/videos/5a3496a9564482a6e41b479d8d8a7441.mp4",
+                "102" : "http://174.138.17.179/videos/6542eb454e42fd08e1cfbd0de17d72fc.mp4",
+                "103" : "",
+                "104" : "http://174.138.17.179/videos/f5f8abdab16756c787f9fa349d106276.mp4",
+                "105" : "http://174.138.17.179/videos/c24e6714e6c55c3ee5faf77257fd4897.mp4",
+                "106" : "",
+                "107" : "http://174.138.17.187/videos/c7590964d3dde135447f53541bba96a6.mp4",
+                "108" : "http://174.138.17.179/videos/e1a5bbfddfc105055eae4f85df052c9c.mp4",
+                "109" : "http://174.138.22.175/videos/e50d726328527d34510f48f74f027a96.mp4",
+                "110" : "",
+                "111" : "http://174.138.17.179/videos/d8f1c28e46c78ed95a73036dd41fcbe1.mp4",
+                "112" : "http://174.138.22.175/videos/a2d5762dc67cacd5d0df5993f9de9836.mp4",
+                "113" : "http://174.138.17.187/videos/2bd4d44760332f762a26de4c56291b1d.mp4",
+                "114" : "http://174.138.17.187/videos/2bf8e2118357eec22858f946273dc582.mp4",
+                "115" : "http://174.138.17.187/videos/05b856a8ff6e6d5bac75a2394e3ab3a1.mp4",
+                "116" : "",
+                "117" : "",
+                "118" : "",
+                "119" : "",
+                "120" : "",
+                "121" : ""
+            }
+        }
+    ]
+}
